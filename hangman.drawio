@@ -1,1 +1,126 @@
-<mxfile host="app.diagrams.net" modified="2020-11-28T12:06:02.267Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" version="13.10.4" etag="Qf1hiZxRHlyhQ4EzgR47" type="github"><diagram id="3YLzRrAOqz0vWpp6UBTp">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-28T12:44:06.484Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="FqSS6QZrYk7yqJyHyFLE" version="13.10.4" type="github">
+  <diagram id="3YLzRrAOqz0vWpp6UBTp" name="Page-1">
+    <mxGraphModel dx="1376" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sr-UIgpC5iS4ZTUJLcAo-1" target="sr-UIgpC5iS4ZTUJLcAo-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="460" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-1" value="Ask player &lt;br&gt;to guess&lt;br&gt;a letter" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="370" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sr-UIgpC5iS4ZTUJLcAo-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-2" value="Start" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="70" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sr-UIgpC5iS4ZTUJLcAo-7" target="sr-UIgpC5iS4ZTUJLcAo-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="663" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="563" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sr-UIgpC5iS4ZTUJLcAo-7" target="sr-UIgpC5iS4ZTUJLcAo-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="663" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-7" value="Guessed &lt;br&gt;letter is in the word?&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="513" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-10" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="543" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sr-UIgpC5iS4ZTUJLcAo-13" target="sr-UIgpC5iS4ZTUJLcAo-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-13" value="Draw the letter &lt;br&gt;in place" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="470" y="613" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sr-UIgpC5iS4ZTUJLcAo-15" target="sr-UIgpC5iS4ZTUJLcAo-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-15" value="Draw a part of the hangman" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="230" y="613" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-16" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="543" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sr-UIgpC5iS4ZTUJLcAo-19" target="sr-UIgpC5iS4ZTUJLcAo-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="773" />
+              <mxPoint x="160" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sr-UIgpC5iS4ZTUJLcAo-19" target="sr-UIgpC5iS4ZTUJLcAo-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="773" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-19" value="Hangman&amp;nbsp;is&amp;nbsp;&lt;br&gt;complete?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="230" y="723" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sr-UIgpC5iS4ZTUJLcAo-20" target="sr-UIgpC5iS4ZTUJLcAo-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="773" />
+              <mxPoint x="640" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sr-UIgpC5iS4ZTUJLcAo-20" target="sr-UIgpC5iS4ZTUJLcAo-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1000" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="773" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-20" value="Word is complete?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="470" y="723" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-24" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="753" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-26" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="753" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-27" value="Game Over" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="860" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-31" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="753" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-32" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="753" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sr-UIgpC5iS4ZTUJLcAo-33" target="sr-UIgpC5iS4ZTUJLcAo-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-33" value="Generate a random word" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="170" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sr-UIgpC5iS4ZTUJLcAo-34" target="sr-UIgpC5iS4ZTUJLcAo-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-UIgpC5iS4ZTUJLcAo-34" value="Create as many blanks as letters in the word" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="270" width="100" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
